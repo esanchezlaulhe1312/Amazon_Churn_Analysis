@@ -1,6 +1,6 @@
-# Amazon Prime – Churn Dashboard (Simulación)
+# Amazon Prime – Churn Dashboard
 
-![Cover](Images/screenshot_cover.png)
+![alt text](Images/amazon-prime-logo-1.png)
 
 Este proyecto presenta un análisis completo del _churn_ (abandono de clientes) en una empresa ficticia similar a **Amazon Prime**, usando datos simulados. Se parte desde un dataset crudo hasta la construcción de un dashboard ejecutivo en Excel, pasando por la limpieza y el análisis exploratorio de datos.
 
@@ -26,6 +26,7 @@ Este proyecto presenta un análisis completo del _churn_ (abandono de clientes) 
 
 ## Estructura del repositorio
 
+```
 amazon-churn-dashboard/
 ├── 📁 Data/
 │ ├── AmazonChurn_raw_data.xlsx
@@ -42,21 +43,23 @@ amazon-churn-dashboard/
 ├── amazon_dashboard.xlsx # Dashboard visual sin macros
 ├── README.md # Documentación principal del proyecto
 
+```
+
 ---
 
 ## 📈 Vista previa
 
 ### 🧩 Vista general del Dashboard
 
-![Dashboard](Images/screenshot_dashboard.png)
+![alt text](Images/Screenshot_Dashboard.png)
 
 ### 🧾 Portada del Dashboard
 
-![Cover](Images/screenshot_cover.png)
+![alt text](Images/Screenshot_Cover.png)
 
 ### 📑 Dataset limpio en Excel
 
-![Data](Images/screenshot_data.png)
+![alt text](Images/Screenshot_data.png)
 
 ---
 
@@ -67,7 +70,18 @@ amazon-churn-dashboard/
 - **Visualización en Excel** (sin herramientas externas)
 - **Diseño UX de dashboard en entorno limitado (sí, Excel)**
 
+📌 Seguridad del archivo .xlsm
+
+Este archivo contiene macros simples utilizadas para funciones de visualización y automatización dentro de Excel.  
+No contiene información sensible ni código malicioso.  
+Se puede revisar fácilmente accediendo al editor de VBA (`Alt + F11`) en Excel.
+
 ---
+
+## Contribuciones
+
+Las contribuciones son muy bienvenidas, si tienes alguna sugerencia, mejora o corrección, no dudes en ponerte en contacto o enviar tus ideas.
+Cualquier contribución, ya sea código, documentación o feedback, será muy valorado. ¡Gracias por tu ayuda y colaboración!
 
 ## 👤 Autora
 
@@ -75,6 +89,10 @@ amazon-churn-dashboard/
 [GitHub – @esanchezlaulhe1312](https://github.com/esanchezlaulhe1312)
 
 ---
+
+## Origen de los datos
+
+[Fuente original en Kaggle](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset)
 
 ## ⚠️ Disclaimer
 
